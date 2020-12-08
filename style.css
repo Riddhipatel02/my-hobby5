@@ -1,0 +1,74 @@
+.menu{
+    list-style:none;
+    z-index:10;
+    position:fixed;
+    font-family:fantasy;
+    cursor:pointer;
+    top:10px;
+    right:30px;
+}
+.menu_links{
+    font-size:25px;
+     float:left;
+    font-family:fantasy;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    color:black;
+}
+.image{
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    margin-top: 70px;
+}
+body{
+    text-align:center;
+        background:linear-gradient(#f26b6b 0%,#edb25f 20%,#e4ed5f 40%,#79e86d 60%,#77c2ed 80%,#ce77ed 100%);
+}
+h1{
+    font-family: 'Arima Madurai', fantasy;
+    font-size: 40px;
+}
+#hobby{
+    font-size: 60px;
+    font-family: 'fascinate inline', fantasy;
+}
+p{
+    font-size:20px;
+    font-family:fantasy;
+}
+.menu_links:hover{
+   background:Radial-gradient(#ffffff 0%,#999999 100%);
+    cursor:pointer;
+}
+.line{
+    width:600px;
+    height:5px;
+    background-color: black;
+    margin: 8px auto;
+}
+html{
+    scroll-behavior:smooth;
+}
+.drawings{
+    width:80px;
+    height:80px;
+}
+.drawings:hover{
+    transform:scale(1.1);
+    border-style:dotted;
+    border-width:5px;
+    border-color:black;
+        
+}
+.paintings{
+    border-width: 8px;
+    border-color:black;
+    border-style:double;
+}
+.links{
+    font-size: 30px;
+    font-family:fantasy;
+}
